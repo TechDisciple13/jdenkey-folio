@@ -1,16 +1,12 @@
-import { useState, useEffect } from 'react'
 import Home from './views/Home.jsx'
+import { useDarkMode } from './controllers/useDarkMode.js'
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false)
-
-  useEffect(() => {
-    const root = document.documentElement
-    darkMode ? root.classList.add('dark') : root.classList.remove('dark')
-  }, [darkMode])
+  // Dark mode activé par défaut (true)
+  const { darkMode, setDarkMode } = useDarkMode(true)
 
   return (
-    <div className="min-h-screen bg-white dark:bg-[#111111] transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-[#111111]">
       <Home darkMode={darkMode} setDarkMode={setDarkMode} />
     </div>
   )

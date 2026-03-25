@@ -7,7 +7,7 @@ const navLinks = [
   { label: 'Portfolio',  id: 'portfolio' },
   { label: 'Expérience', id: 'experience' },
   { label: 'Services',   id: 'services' },
-  { label: 'Blog',       id: 'blog' },
+  { label: 'Résumé',     id: 'resume' },
 ]
 
 export default function Navbar({ darkMode, setDarkMode }) {

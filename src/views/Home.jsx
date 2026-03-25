@@ -5,7 +5,7 @@ import About      from '../components/sections/About.jsx'
 import Portfolio  from '../components/sections/Portfolio.jsx'
 import Experience from '../components/sections/Experience.jsx'
 import Services   from '../components/sections/Services.jsx'
-import Blog       from '../components/sections/Blog.jsx'
+import Resume     from '../components/sections/Resume.jsx'
 import CTA        from '../components/sections/CTA.jsx'
 
 export default function Home({ darkMode, setDarkMode }) {
@@ -19,7 +19,7 @@ export default function Home({ darkMode, setDarkMode }) {
         <Portfolio />
         <Experience />
         <Services />
-        <Blog />
+        <Resume />
         <CTA />
       </main>
 

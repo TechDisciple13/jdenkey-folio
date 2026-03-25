@@ -1,9 +1,9 @@
 import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi'
 import { scrollToSection } from '../../controllers/useScrollSpy.js'
 
-const navLinks = ['about', 'portfolio', 'experience', 'services', 'blog', 'contact']
+const navLinks = ['about', 'portfolio', 'experience', 'services', 'resume', 'contact']
 const navLabels = { about: 'À propos', portfolio: 'Portfolio', experience: 'Expérience',
-                    services: 'Services', blog: 'Blog', contact: 'Contact' }
+                    services: 'Services', resume: 'Résumé', contact: 'Contact' }
 
 const socials = [
   { icon: <FiGithub size={17} />,   href: 'https://github.com/',    label: 'GitHub' },
