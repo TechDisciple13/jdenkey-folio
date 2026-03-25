@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: #F8F8F8; }
+  ::-webkit-scrollbar-thumb { background: #7B7B7B; border-radius: 2px; }
+}
+
+@layer components {
+
+  .section-wrap {
+    @apply px-6 md:px-14 lg:px-24 py-20 md:py-28 max-w-7xl mx-auto;
+  }
+
+  .section-label {
+    @apply text-[11px] font-medium tracking-[0.2em] text-secondary uppercase mb-3;
+  }
+
+  .heading-xl {
+    @apply text-5xl md:text-6xl lg:text-7xl font-light leading-none tracking-tighter text-primary dark:text-white;
+  }
+
+  .heading-lg {
+    @apply text-3xl md:text-4xl font-light leading-snug tracking-tight text-primary dark:text-white;
+  }
+
+  .tag {
+    @apply text-xs px-3 py-1 bg-tertiary dark:bg-[#222] text-secondary dark:text-[#999] rounded-full font-medium;
+  }
+
+  .btn-dark {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-primary dark:bg-white
+           text-white dark:text-primary text-sm font-medium rounded-full
+           hover:opacity-80 transition-opacity duration-200;
+  }
+
+  .btn-light {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-primary dark:border-white
+           text-primary dark:text-white text-sm font-medium rounded-full
+           hover:bg-primary hover:text-white dark:hover:bg-white dark:hover:text-primary
+           transition-all duration-200;
+  }
+
+  .card-base {
+    @apply bg-white dark:bg-[#1a1a1a] border border-[#ebebeb] dark:border-[#2a2a2a] rounded-2xl;
+  }
+}
+
+/* Dark mode */
+.dark body {
+  background-color: #111111;
+  color: #F8F8F8;
+}
