@@ -1,4 +1,4 @@
-# Tech Disciple — Portfolio v2
+# Tech Disciple — Portfolio
 
 Portfolio personnel, design minimaliste noir/blanc/gris.
 Stack : React 18 · Vite 5 · Tailwind CSS 3 · React Icons
@@ -9,7 +9,7 @@ Stack : React 18 · Vite 5 · Tailwind CSS 3 · React Icons
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173
+npm run dev        # http://localhost:8081
 npm run build      # build production → /dist
 npm run preview    # preview du build
 ```
