@@ -28,27 +28,26 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-secondary dark:text-[#aaa] text-sm mb-5">
-            — Tech Disciple, développeur web & systèmes
+            — Henri-Joel Denkey, développeur web.
           </p>
 
           {/* Description */}
           <p className="text-secondary dark:text-[#888] text-base font-light leading-relaxed max-w-md mb-8">
             Étudiant en informatique à Lomé, Togo. Je conçois et développe des applications
-            web modernes, des interfaces soignées et des solutions systèmes robustes.
-          </p>
+            web modernes, des interfaces soignées et des solutions systèmes informatiques.</p>
 
           {/* Photo mobile — visible uniquement sur petit écran */}
           <div className="md:hidden mb-8 rounded-2xl overflow-hidden bg-tertiary dark:bg-[#1a1a1a] relative">
             <img
-              src="https://picsum.photos/seed/portrait/400/300"
-              alt="Tech Disciple — Développeur Web"
+              src="/src/assets/JOfolio.jpeg"
+              alt="Henri-Joel Denkey — Développeur Web"
               className="w-full h-60 object-cover object-top"
               loading="eager"
             />
             <div className="absolute bottom-4 left-4 bg-white dark:bg-[#1a1a1a] rounded-xl px-4 py-2.5
                             shadow-md border border-[#ebebeb] dark:border-[#2a2a2a]">
               <p className="text-xs text-secondary dark:text-[#888]">Disponible pour</p>
-              <p className="text-sm font-medium text-primary dark:text-white">Freelance & Stages</p>
+              <p className="text-sm font-medium text-primary dark:text-white">Freelance & Remote Work</p>
             </div>
           </div>
 
@@ -77,8 +76,8 @@ export default function Hero() {
         <div className="hidden md:flex flex-shrink-0 w-[320px] lg:w-[380px] items-stretch relative">
           <div className="w-full rounded-3xl overflow-hidden bg-tertiary dark:bg-[#1a1a1a] relative my-8">
             <img
-              src="https://picsum.photos/seed/portrait/400/600"
-              alt="Tech Disciple — Développeur Web"
+              src="/src/assets/JOfolio.jpeg"
+              alt="Henri-Joel Denkey — Développeur Web"
               className="w-full h-full object-cover object-top"
               loading="eager"
             />

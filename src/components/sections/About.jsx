@@ -2,14 +2,14 @@ import { FiCheck } from 'react-icons/fi'
 
 const skillGroups = [
   { category: 'Frontend',  items: ['React', 'TypeScript', 'HTML/CSS', 'Tailwind CSS'] },
-  { category: 'Backend',   items: ['PHP', 'Python', 'MySQL', 'API REST'] },
+  { category: 'Backend',   items: ['PHP', 'Python', 'MySQL'] },
   { category: 'Système',   items: ['Linux', 'Virtualisation', 'SSH', 'Réseau'] },
   { category: 'Outils',    items: ['Git', 'Vite', 'Figma', 'Excel/VBA'] },
 ]
 
 const highlights = [
   'Développement d\'applications web complètes (frontend + backend)',
-  'Administration systèmes Linux et virtualisation Hyper-V',
+  'Administration systèmes Linux et gestion de réseaux',
   'Passionné par les projets innovants et l\'IA',
   'Ouvert à la collaboration et au travail en équipe',
 ]
@@ -28,19 +28,19 @@ export default function About() {
             <h2 className="heading-lg mb-6">
               Développeur web &<br />
               <span className="text-secondary dark:text-[#888] font-light italic">
-                passionné des systèmes
+                passionné des systèmes informatiques
               </span>
             </h2>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-5 font-light text-sm">
-              Je suis Tech Disciple, étudiant en Licence 3 Informatique à Lomé, Togo.
-              Je combine créativité technique et rigueur systémique — je construis des solutions
-              qui fonctionnent vraiment, de l'interface jusqu'au serveur.
+              Je suis Henri-Joel Denkey, étudiant en Licence 3 Informatique à Lomé, Togo.
+              Je combine créativité technique et rigueur systémique, je developpe des 
+              solutions aux besoins des utilisateurs, de l'interface jusqu'au serveur.
             </p>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-8 font-light text-sm">
-              Avec une expérience en développement web, administration réseau et suivi logistique,
-              je m'adapte vite et j'aime relever des défis techniques concrets.
+              Avec une expérience en développement web, administration réseau,
+              je m'adapte vite et j'aime relever des défis techniques.
             </p>
 
             {/* Points forts */}
@@ -54,11 +54,6 @@ export default function About() {
             </ul>
 
             {/* Metric */}
-            <div className="inline-flex flex-col bg-primary dark:bg-white
-                            text-white dark:text-primary rounded-2xl px-8 py-6">
-              <span className="text-4xl font-light">+120%</span>
-              <span className="text-xs mt-1 opacity-60">Performance moyenne livrée</span>
-            </div>
           </div>
 
           {/* Right — Compétences */}
