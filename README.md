@@ -1,4 +1,4 @@
-# Tech Disciple — Portfolio v2
+Henri-Joel Denkey — Portfolio 
 
 Portfolio personnel, design minimaliste noir/blanc/gris.
 Stack : React 18 · Vite 5 · Tailwind CSS 3 · React Icons

@@ -37,7 +37,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
             TD
           </span>
           <span className="hidden sm:block text-sm font-medium text-primary dark:text-white tracking-tight">
-            Tech Disciple
+            Henri-Joel DENKEY
           </span>
         </button>
 

@@ -8,7 +8,7 @@ export const projects = [
     title: 'Axen-Noir',
     description:
       'Axen Noir est une entreprise opérant au Togo et au Niger, spécialisée dans le marketing, la communication, l\'impression, l\'événementiel et la logistique.',
-    image: '/src/assets/axennoirhero.png',
+    image: '/src/images/axennoirhero.png',
     category: 'realise',
     tags: ['React','TypeScript','Tailwind'],
     link: 'https://axennoir-website.vercel.app/',
@@ -19,7 +19,7 @@ export const projects = [
     title: 'Bison Coworking-Space ',
     description: 
       'Site web pour un espace de coworking et incubateur au Togo.',
-    image: '/src/assets/bisonCoworkingSpace.png',
+    image: '/src/images/bisonhero.png',
     category: 'realise',
     tags: ['React', 'TypeScript', 'Tailwind'],
     link: 'https://bison-incubateur.vercel.app/',
