@@ -39,7 +39,7 @@ export default function Hero() {
           {/* Photo mobile — visible uniquement sur petit écran */}
           <div className="md:hidden mb-8 rounded-2xl overflow-hidden bg-tertiary dark:bg-[#1a1a1a] relative">
             <img
-              src="/src/assets/JOfolio.jpeg"
+              src="/images/techdisciple.png"
               alt="Henri-Joel Denkey — Développeur Web"
               className="w-full h-60 object-cover object-top"
               loading="eager"
