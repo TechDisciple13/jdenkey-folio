@@ -7,8 +7,7 @@ export const projects = [
     id: 1,
     title: 'Axen-Noir',
     description:
-      'Axen Noir est une entreprise opérant au Togo et au Niger,', 
-      'spécialisée dans le marketing, la communication, l\'impression, l\'événementiel et la logistique.',
+      'Axen Noir est une entreprise opérant au Togo et au Niger, spécialisée dans le marketing, la communication, l\'impression, l\'événementiel et la logistique.',
     image: '/src/assets/axennoirhero.png',
     category: 'realise',
     tags: ['React','TypeScript','Tailwind'],
