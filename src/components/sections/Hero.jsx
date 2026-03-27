@@ -9,20 +9,6 @@ export default function Hero() {
 
         {/* Left — Content */}
         <div className="flex-1 flex flex-col justify-center py-12 md:py-20 pr-0 md:pr-12">
-
-          {/* Stats */}
-          <div className="flex items-center gap-8 mb-8">
-            <div>
-              <p className="text-2xl font-light text-primary dark:text-white">+5</p>
-              <p className="text-xs text-secondary dark:text-[#888] mt-0.5 tracking-wide">Projets réalisés</p>
-            </div>
-            <div className="w-px h-8 bg-[#ebebeb] dark:bg-[#333]" />
-            <div>
-              <p className="text-2xl font-light text-primary dark:text-white">+15</p>
-              <p className="text-xs text-secondary dark:text-[#888] mt-0.5 tracking-wide">Clients satisfaits</p>
-            </div>
-          </div>
-
           {/* Title */}
           <h1 className="heading-xl mb-3">Hello</h1>
 
