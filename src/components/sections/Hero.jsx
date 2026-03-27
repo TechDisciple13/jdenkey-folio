@@ -85,7 +85,7 @@ export default function Hero() {
             <div className="absolute bottom-6 left-6 bg-white dark:bg-[#1a1a1a] rounded-2xl px-5 py-4
                             shadow-lg border border-[#ebebeb] dark:border-[#2a2a2a]">
               <p className="text-xs text-secondary dark:text-[#888] mb-1">Disponible pour</p>
-              <p className="text-sm font-medium text-primary dark:text-white">Freelance & Stages</p>
+              <p className="text-sm font-medium text-primary dark:text-white">Freelance & Remote Work </p>
             </div>
           </div>
         </div>
