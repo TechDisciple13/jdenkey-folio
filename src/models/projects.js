@@ -5,25 +5,25 @@
 export const projects = [
   {
     id: 1,
-    title: 'SnapTag',
+    title: 'Axen-Noir',
     description:
-      'Application de partage de photos avec authentification JWT, backend PHP natif et frontend React. Upload, tagging et profils utilisateurs.',
-    image: 'https://picsum.photos/seed/snaptag/600/380',
+      'Axen Noir est une entreprise opérant au Togo et au Niger,', 
+      'spécialisée dans le marketing, la communication, l\'impression, l\'événementiel et la logistique.',
+    image: '/src/assets/axennoirhero.png',
     category: 'realise',
-    tags: ['PHP', 'React', 'MySQL', 'JWT'],
-    link: '#',
+    tags: ['React','TypeScript','Tailwind'],
+    link: 'https://axennoir-website.vercel.app/',
     github: '#',
   },
   {
     id: 2,
-    title: 'Bison Elevate',
-    description:
-      'Site web multilingue pour un espace de coworking et incubateur au Togo. Support FR/EN dynamique via Context API.',
-    image: 'https://picsum.photos/seed/bison/600/380',
+    title: 'Bison Coworking-Space ',
+    description: 
+      'Site web pour un espace de coworking et incubateur au Togo.',
+    image: '/src/assets/bisonCoworkingSpace.png',
     category: 'realise',
     tags: ['React', 'TypeScript', 'Tailwind'],
-    link: '#',
-    github: '#',
+    link: 'https://bison-incubateur.vercel.app/',
   },
   {
     id: 3,
@@ -34,7 +34,6 @@ export const projects = [
     category: 'realise',
     tags: ['Excel', 'VBA', 'Analyse de données'],
     link: '#',
-    github: '#',
   },
   {
     id: 4,

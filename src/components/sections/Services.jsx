@@ -5,15 +5,15 @@ const services = [
     icon: <FiCode size={20} />,
     title: 'Développement Web',
     description:
-      'Applications web full-stack modernes. Frontend React, backend PHP/Python, base de données MySQL et APIs REST robustes.',
-    points: ['React / Vite', 'PHP & Python', 'MySQL / REST API'],
+      'Applications web full-stack modernes. Frontend React, backend PHP/Python, base de données MySQL et APIs REST.',
+    points: ['React / Vite', 'PHP & Python', 'MySQL'],
   },
   {
     icon: <FiLayout size={20} />,
     title: 'UI/UX Design',
     description:
       'Interfaces utilisateur élégantes, intuitives et responsive. Design system cohérent, maquettes Figma et prototypage rapide.',
-    points: ['Figma & Tailwind', 'Mobile-first', 'Design system'],
+    points: ['Figma & Tailwind', 'Design system'],
   },
   {
     icon: <FiSettings size={20} />,
@@ -39,15 +39,9 @@ export default function Services() {
         <p className="section-label">Services</p>
 
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
-          <h2 className="heading-lg">
-            Ce que je{' '}
-            <span className="text-secondary dark:text-[#888] font-light italic">
-              peux faire
-            </span>
-          </h2>
-          <p className="text-sm text-secondary dark:text-[#888] max-w-xs font-light leading-relaxed">
-            Des solutions techniques complètes, du design jusqu'au déploiement.
-          </p>
+          <h4 className="heading-lg">
+            Des solutions complètes adaptées à vos besoins d'entreprise
+          </h4>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
