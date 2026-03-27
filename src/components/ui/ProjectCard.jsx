@@ -16,12 +16,18 @@ export default function ProjectCard({ project }) {
         />
         {/* Badge */}
         <span className={`absolute top-3 left-3 text-xs px-3 py-1 rounded-full font-medium
-          ${category === 'encours'
-            ? 'bg-primary text-white dark:bg-white dark:text-primary'
-            : 'bg-white/90 text-primary'}`}
-        >
-          {category === 'encours' ? 'En cours' : 'Réalisé'}
-        </span>
+  ${category === 'encours'
+    ? 'bg-primary text-white dark:bg-white dark:text-primary'
+    : category === 'contribute'
+    ? 'bg-green-600 text-white'
+    : 'bg-white/90 text-primary'}`}
+>
+  {category === 'encours'
+    ? 'En cours'
+    : category === 'contribute'
+    ? 'À contribuer'
+    : 'Réalisé'}
+</span>
       </div>
 
       {/* Content */}

@@ -1,6 +1,5 @@
 /**
  * MODEL — Projets
- * Remplace les images par tes vraies captures (src="/images/nom.jpg")
  */
 export const projects = [
   {
@@ -25,13 +24,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Logistics Tracker',
-    description:
-      'Outil de suivi logistique pour les déclarations BOE à Tema Port (Ghana). Données consolidées, formules dynamiques et graphiques.',
-    image: 'https://picsum.photos/seed/logistics/600/380',
-    category: 'realise',
-    tags: ['Excel', 'VBA', 'Analyse de données'],
-    link: '#',
+    title: 'OS228',
+    description:'Welcome to the platform that brings together open source projects from Togo as part of Hacktoberfest 2025. Discover, contribute and participate in the Togolese technological ecosystem.',
+    image: '/images/os228.png',
+    category:'contribute',
+    tags: ['Typescript', 'React', 'Tailwind CSS'],
+    link: 'https://os228.vercel.app/',
   },
   {
     id: 4,
@@ -51,7 +49,7 @@ export const projects = [
     image: '/images/portfolio.png',
     category: 'encours',
     tags: ['React', 'Vite', 'Tailwind CSS'],
-    link: '',
+    link: '#',
     
   },
 ]
@@ -60,4 +58,5 @@ export const categories = [
   { id: 'all',     label: 'Tous' },
   { id: 'realise', label: 'Réalisés' },
   { id: 'encours', label: 'En cours' },
+  { id: 'contribute', label: 'À contribuer' }
 ]
