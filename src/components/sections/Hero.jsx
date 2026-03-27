@@ -76,7 +76,7 @@ export default function Hero() {
         <div className="hidden md:flex flex-shrink-0 w-[320px] lg:w-[380px] items-stretch relative">
           <div className="w-full rounded-3xl overflow-hidden bg-tertiary dark:bg-[#1a1a1a] relative my-8">
             <img
-              src="/public/images/techdisciple.jpeg"
+              src="/images/techdisciple.jpeg"
               alt="Henri-Joel Denkey — Développeur Web"
               className="w-full h-full object-cover object-top"
               loading="eager"
