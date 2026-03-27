@@ -42,7 +42,7 @@ export const experiences = [
     id: 4,
     period: '2023 — Présent',
     role: 'Étudiant — Licence 3 Informatique',
-    company: 'ESAT — Ecole Supérieure des Affaires',
+    company: 'ESA— Ecole Supérieure des Affaires',
     location: 'Lomé, Togo',
     type: 'Formation',
     description:

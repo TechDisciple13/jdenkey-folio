@@ -12,7 +12,6 @@ export const projects = [
     category: 'realise',
     tags: ['React','TypeScript','Tailwind'],
     link: 'https://axennoir-website.vercel.app/',
-    github: '#',
   },
   {
     id: 2,
@@ -43,18 +42,17 @@ export const projects = [
     category: 'encours',
     tags: ['Python', 'Raspberry Pi', 'Claude API'],
     link: '#',
-    github: '#',
   },
   {
     id: 5,
     title: 'Ce Portfolio',
     description:
       'Portfolio personnel développé avec React et Vite. Design minimaliste, responsive, SEO optimisé.',
-    image: 'https://picsum.photos/seed/portfolio/600/380',
+    image: '/images/portfolio.png',
     category: 'encours',
     tags: ['React', 'Vite', 'Tailwind CSS'],
-    link: '#',
-    github: '#',
+    link: '',
+    
   },
 ]
 
