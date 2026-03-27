@@ -68,7 +68,9 @@ export default function ProjectCard({ project }) {
             className="p-2 text-secondary dark:text-[#888] hover:text-primary dark:hover:text-white
                        hover:bg-tertiary dark:hover:bg-[#222] rounded-lg transition-colors duration-150"
           >
-            <FiGithub size={16} />
+            {github && (
+              <FiGithub size={16} />
+            )}
           </a>
         </div>
       </div>
