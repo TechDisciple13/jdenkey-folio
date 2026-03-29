@@ -6,7 +6,7 @@ export const experiences = [
     id: 1,
     period: '2024 — Présent',
     role: 'Développeur Web Freelance',
-    company: 'Tech Disciple Studio',
+    company: '',
     location: 'Lomé, Togo',
     type: 'Freelance',
     description:
@@ -16,7 +16,7 @@ export const experiences = [
   },
   {
     id: 2,
-    period: '2024 — Présent',
+    period: '2025 — Présent',
     role: 'Technicien IT',
     company: 'BISOn Coworking Space',
     location: 'Lomé, Togo',
@@ -28,7 +28,7 @@ export const experiences = [
   },
   {
     id: 3,
-    period: '2022 — Présent',
+    period: '2023 — Présent',
     role: 'Technicien Réseau & Système',
     company: 'Auto-formation',
     location: 'Lomé, Togo',
@@ -52,7 +52,7 @@ export const experiences = [
   },
   {
     id: 5,
-    period: '2024 — Présent',
+    period: '2023 — Présent',
     role: 'Référent numérique',
     company: 'Paroisse Ste Maria Goretti de Bè-Kpota',
     location: 'Lomé, Togo',

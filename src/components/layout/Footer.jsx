@@ -6,9 +6,9 @@ const navLabels = { about: 'À propos', portfolio: 'Portfolio', experience: 'Exp
                     services: 'Services', contact: 'Contact' }
 
 const socials = [
-  { icon: <FiGithub size={17} />,   href: 'https://github.com/',    label: 'GitHub' },
-  { icon: <FiLinkedin size={17} />, href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { icon: <FiTwitter size={17} />,  href: 'https://twitter.com/',  label: 'Twitter' },
+  { icon: <FiGithub size={17} />,   href: 'https://github.com/TechDisciple13',    label: 'GitHub' },
+  { icon: <FiLinkedin size={17} />, href: 'https://www.linkedin.com/in/henri-joël-denkey', label: 'LinkedIn' },
+  { icon: <FiTwitter size={17} />,  href: 'https://x.com/Joel_Dky',  label: 'Twitter' },
   { icon: <FiMail size={17} />,     href: 'mailto:denkeyhenrijoel1@gmail.com', label: 'Email' },
 ]
 
@@ -69,6 +69,9 @@ export default function Footer() {
               <a href="mailto:denkeyhenrijoel1@gmail.com"
                  className="block text-sm text-white/50 hover:text-white transition-colors duration-150">
                 denkeyhenrijoel1@gmail.com
+              </a>
+              <a href="tel:+22896466388" className="text-sm text-white/50 hover:text-white transition-colors duration-150">
+                +228 96 46 63 88
               </a>
               <p className="text-sm text-white/50">Lomé, Togo</p>
               <div className="flex items-center gap-2 pt-2">
