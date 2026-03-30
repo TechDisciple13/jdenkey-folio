@@ -16,7 +16,7 @@ export const projects = [
     id: 2,
     title: 'Bison Coworking-Space ',
     description: 
-      'Site web pour un espace de coworking et incubateur au Togo.',
+      'PLUS QU\'UN ESPACE,UN TREMPLIN POUR VOS AMBITIONS. Incubation • Coworking • Bureaux Privés • Salles de RéunionInternet fiable • Groupe électrogène • Communauté d\'entrepreneurs',
     image: '/images/bisonhero.png',
     category: 'realise',
     tags: ['React', 'TypeScript', 'Tailwind'],
