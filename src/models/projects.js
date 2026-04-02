@@ -30,9 +30,20 @@ export const projects = [
     category:'contribute',
     tags: ['Typescript', 'React', 'Tailwind CSS'],
     link: 'https://os228.vercel.app/',
+    github: 'https://github.com/Docteur-Parfait/os228',
   },
   {
     id: 4,
+    title: 'GesEvent',
+    description:'Application de gestion d\'évènements pour les organisateurs. Publication des phots d\'évènements; pour éviter le chevauchments des évènements, les organisateurs peuvent consulter le calendrier des évènements avant de publier le leur.',
+    image: '/images/gesevent.png',
+    category: 'encours',
+    tags: ['React', 'PHP', 'MySQL'],
+    link: '#',
+  },
+
+  {
+    id: 6,
     title: 'Voice AI Companion',
     description:
       'Assistant vocal pour l\'apprentissage des langues FR/EN. Prototype sur Raspberry Pi : Google STT, Whisper, Claude API.',
@@ -42,7 +53,7 @@ export const projects = [
     link: '#',
   },
   {
-    id: 5,
+    id: 8,
     title: 'Ce Portfolio',
     description:
       'Portfolio personnel développé avec React et Vite. Design minimaliste, responsive, SEO optimisé.',
