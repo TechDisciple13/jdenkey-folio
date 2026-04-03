@@ -3,10 +3,9 @@ import { FiMenu, FiX, FiMoon, FiSun } from 'react-icons/fi'
 import { useScrolled, scrollToSection } from '../../controllers/useScrollSpy.js'
 
 const navLinks = [
-  { label: 'À propos',   id: 'about' },
   { label: 'Portfolio',  id: 'portfolio' },
   { label: 'Expérience', id: 'experience' },
-  { label: 'Services',   id: 'services' },
+  { label: 'À propos',   id: 'about' },
 ]
 
 export default function Navbar({ darkMode, setDarkMode }) {
@@ -30,11 +29,10 @@ export default function Navbar({ darkMode, setDarkMode }) {
         <button
           onClick={() => scrollToSection('home')}
           className="flex items-center gap-2.5"
-          aria-label="Retour en haut"
-        >
+          aria-label="Retour en haut"> 
           <span className="w-8 h-8 bg-primary dark:bg-white rounded-full flex items-center justify-center
                            text-white dark:text-primary text-xs font-semibold select-none">
-            TD
+            HJ
           </span>
           <span className="hidden sm:block text-sm font-medium text-primary dark:text-white tracking-tight">
             Henri-Joel DENKEY

@@ -1,24 +1,19 @@
-import { FiCheck } from 'react-icons/fi'
+import { FiArrowUpRight, FiCheck, FiMail, FiDownload } from "react-icons/fi";
 
 const skillGroups = [
-  { category: 'Frontend',  items: ['React', 'TypeScript', 'HTML/CSS', 'Tailwind CSS'] },
-  { category: 'Backend',   items: ['PHP', 'Python', 'MySQL'] },
-  { category: 'Système',   items: ['Linux', 'Virtualisation', 'SSH', 'Réseau'] },
-  { category: 'Outils',    items: ['Git', 'Vite', 'Figma', 'Excel/VBA'] },
-]
-
-const highlights = [
-  'Développement d\'applications web complètes (frontend + backend)',
-  'Administration systèmes Linux et gestion de réseaux',
-  'Passionné par les projets innovants et l\'IA',
-  'Ouvert à la collaboration et au travail en équipe',
-]
+  {
+    category: "Frontend",
+    items: ["React", "TypeScript", "HTML/CSS", "Tailwind CSS"],
+  },
+  { category: "Backend", items: ["PHP", "Python", "MySQL"] },
+  { category: "Système", items: ["Linux", "SSH", "Réseau"] },
+  { category: "Outils", items: ["Git", "Vite", "Figma", "Excel/VBA"] },
+];
 
 export default function About() {
   return (
     <section id="about" className="bg-white dark:bg-[#111111]">
       <div className="section-wrap">
-
         <p className="section-label">À propos</p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -33,9 +28,9 @@ export default function About() {
             </h2>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-5 font-light text-sm">
-              Je suis Henri-Joel Denkey, étudiant en Licence 3 Informatique à Lomé, Togo.
-              Je combine créativité technique et rigueur systémique, je developpe des 
-              solutions aux besoins des utilisateurs, de l'interface jusqu'au serveur.
+              Je suis Henri-Joel Denkey, un développeur web fullstack. Je combine créativité
+              technique et rigueur systémique, je développe des solutions aux besoins des
+              utilisateurs, de l'interface jusqu'au serveur.
             </p>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-8 font-light text-sm">
@@ -43,17 +38,15 @@ export default function About() {
               je m'adapte vite et j'aime relever des défis techniques.
             </p>
 
-            {/* Points forts */}
-            <ul className="space-y-3 mb-10">
-              {highlights.map((item) => (
-                <li key={item} className="flex items-start gap-3 text-sm text-secondary dark:text-[#888]">
-                  <FiCheck className="text-primary dark:text-white mt-0.5 flex-shrink-0" size={13} />
-                  {item}
-                </li>
-              ))}
-            </ul>
-
-            {/* Metric */}
+            {/* Bouton aligné à gauche */}
+            
+              <a href="/CV_Henri-Joel_Denkey.pdf"
+              download="CV_Henri-Joel_Denkey.pdf"
+              className="inline-flex items-center gap-2 btn-dark"
+            >
+              <FiDownload size={15} />
+              Télécharger le CV
+            </a>
           </div>
 
           {/* Right — Compétences */}

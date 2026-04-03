@@ -18,10 +18,6 @@ export default function Experience() {
                 professionnel
               </span>
             </h2>
-            <p className="text-sm text-secondary dark:text-[#888] font-light leading-relaxed">
-              Formations, stages et missions réalisés au fil de mon développement
-              en tant que technicien et développeur.
-            </p>
           </div>
 
           {/* Right — Timeline */}

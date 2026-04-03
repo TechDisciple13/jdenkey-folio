@@ -1,4 +1,4 @@
-import { FiArrowUpRight, FiMail, FiDownload, FiGithub, FiLinkedin, FiTwitter} from 'react-icons/fi'
+import { FiArrowUpRight, FiMail, FiGithub, FiLinkedin, FiTwitter} from 'react-icons/fi'
 
 const socials = [
   { icon: <FiGithub size={17} />,   href: 'https://github.com/TechDisciple13',    label: 'GitHub' },
@@ -34,17 +34,6 @@ export default function CTA() {
 
           {/* Action */}
           <div className="flex flex-col items-center gap-4 flex-shrink-0">
-            
-              <a href="/CV_Henri-Joel_Denkey.pdf"
-              download="CV_Henri-Joel_Denkey.pdf"
-              className="inline-flex items-center gap-3 bg-white dark:bg-primary
-                         text-primary dark:text-white px-7 py-4 rounded-full font-medium
-                         text-sm hover:opacity-80 transition-opacity duration-150"
-              >
-              <FiDownload size={15} />
-              Télécharger le CV
-            </a>
-            
               <a href="mailto:denkeyhenrijoel1@gmail.com"
               className="inline-flex items-center gap-3 bg-white dark:bg-primary
                          text-primary dark:text-white px-7 py-4 rounded-full font-medium

@@ -52,17 +52,6 @@ export const projects = [
     tags: ['Python', 'Raspberry Pi', 'Claude API'],
     link: '#',
   },
-  {
-    id: 8,
-    title: 'Ce Portfolio',
-    description:
-      'Portfolio personnel développé avec React et Vite. Design minimaliste, responsive, SEO optimisé.',
-    image: '/images/portfolio.png',
-    category: 'encours',
-    tags: ['React', 'Vite', 'Tailwind CSS'],
-    link: '#',
-    
-  },
 ]
 
 export const categories = [

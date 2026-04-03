@@ -10,16 +10,16 @@ export default function Hero() {
         {/* Left — Content */}
         <div className="flex-1 flex flex-col justify-center py-12 md:py-20 pr-0 md:pr-12">
           {/* Title */}
-          <h1 className="heading-xl mb-3">Hello</h1>
+          <h1 className="heading-xl mb-3">Henri-Joel Denkey</h1>
 
           {/* Subtitle */}
           <p className="text-secondary dark:text-[#aaa] text-sm mb-5">
-            — Henri-Joel Denkey, développeur web.
+            Henri-Joel Denkey, développeur web fullstack.
           </p>
 
           {/* Description */}
           <p className="text-secondary dark:text-[#888] text-base font-light leading-relaxed max-w-md mb-8">
-            Étudiant en informatique à Lomé, Togo. Je conçois et développe des applications
+            Je conçois et développe des applications
             web modernes, des interfaces soignées et des solutions systèmes informatiques.</p>
 
           {/* Photo mobile — visible uniquement sur petit écran */}
