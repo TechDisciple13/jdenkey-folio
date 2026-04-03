@@ -1,14 +1,11 @@
-import { FiArrowUpRight, FiCheck, FiMail, FiDownload } from "react-icons/fi";
+import { FiDownload,} from "react-icons/fi"
 
 const skillGroups = [
-  {
-    category: "Frontend",
-    items: ["React", "TypeScript", "HTML/CSS", "Tailwind CSS"],
-  },
-  { category: "Backend", items: ["PHP", "Python", "MySQL"] },
-  { category: "Système", items: ["Linux", "SSH", "Réseau"] },
-  { category: "Outils", items: ["Git", "Vite", "Figma", "Excel/VBA"] },
-];
+  { category: "Frontend",  items: ["React", "TypeScript", "HTML/CSS", "Tailwind CSS"] },
+  { category: "Backend",   items: ["PHP", "Python", "MySQL"] },
+  { category: "Système",   items: ["Linux", "SSH", "Réseau"] },
+  { category: "Outils",    items: ["Git", "Vite", "Figma", "Excel/VBA"] },
+]
 
 export default function About() {
   return (
@@ -21,26 +18,28 @@ export default function About() {
           {/* Left — Bio */}
           <div>
             <h2 className="heading-lg mb-6">
-              Développeur web &<br />
+              Fullstack & sécurité <br />
               <span className="text-secondary dark:text-[#888] font-light italic">
-                passionné des systèmes informatiques
+                de l'interface au système
               </span>
             </h2>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-5 font-light text-sm">
-              Je suis Henri-Joel Denkey, un développeur web fullstack. Je combine créativité
-              technique et rigueur systémique, je développe des solutions aux besoins des
-              utilisateurs, de l'interface jusqu'au serveur.
+              Je suis Henri-Joel Denkey, développeur web fullstack.
+              Mon expertise couvre l'ensemble de la chaîne de développement : conception
+              d'interfaces React performantes, développement backend PHP/Python,
+              et sécurisation des applications et systèmes.
             </p>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-8 font-light text-sm">
-              Avec une expérience en développement web, administration réseau,
-              je m'adapte vite et j'aime relever des défis techniques.
+              Avec une solide expérience en administration système Linux,
+              configuration réseau et cybersécurité, j'apporte une vision
+              technique complète à chaque projet.
             </p>
 
-            {/* Bouton aligné à gauche */}
-            
-              <a href="/CV_Henri-Joel_Denkey.pdf"
+            {/* Bouton CV */}
+            <a
+              href="/CV_Henri-Joel_Denkey.pdf"
               download="CV_Henri-Joel_Denkey.pdf"
               className="inline-flex items-center gap-2 btn-dark"
             >
