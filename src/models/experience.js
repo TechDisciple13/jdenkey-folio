@@ -4,18 +4,6 @@
 export const experiences = [
   {
     id: 1,
-    period: '2024 — Présent',
-    role: 'Développeur Web Freelance',
-    company: '',
-    location: 'Lomé, Togo',
-    type: 'Freelance',
-    description:
-      'Conception et développement d\'applications web modernes pour des clients locaux. Stack React, PHP, MySQL. Livraison projets complets avec API REST.',
-    tags: ['React', 'PHP', 'MySQL', 'UI/UX'],
-    current: true,
-  },
-  {
-    id: 2,
     period: '2025 — Présent',
     role: 'Technicien IT',
     company: 'BISOn Coworking Space',
@@ -27,7 +15,7 @@ export const experiences = [
     current: true,
   },
   {
-    id: 3,
+    id: 2,
     period: '2023 — Présent',
     role: 'Technicien Réseau & Système',
     company: 'Auto-formation',
@@ -36,22 +24,10 @@ export const experiences = [
     description:
       'Administration réseau, configuration hotspots, virtualisation Hyper-V (CentOS 8, Kali Linux).',
     tags: ['Linux', 'Réseau', 'Hyper-V'],
-    current: true,
+    current: false,
   },
   {
-    id: 4,
-    period: '2023 — Présent',
-    role: 'Étudiant — Licence 3 Informatique',
-    company: 'ESA— Ecole Supérieure des Affaires',
-    location: 'Lomé, Togo',
-    type: 'Formation',
-    description:
-      'Administration systèmes, développement web, sécurité informatique. Présentations techniques en groupe.',
-    tags: ['Python', 'Sécurité', 'Admin Système', 'Linux'],
-    current: true,
-  },
-  {
-    id: 5,
+    id: 3,
     period: '2023 — Présent',
     role: 'Référent numérique',
     company: 'Paroisse Ste Maria Goretti de Bè-Kpota',

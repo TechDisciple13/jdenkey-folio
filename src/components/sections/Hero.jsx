@@ -13,7 +13,11 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-secondary dark:text-[#aaa] text-lg font-light mb-5 max-w-md leading-snug">
-            Je construis des applications web robustes et sécurisées —
+            Développeur web fullstack.
+              Mon expertise couvre l'ensemble de la chaîne de développement : conception
+              d'interfaces React performantes, développement backend PHP/Python,
+              et sécurisation des applications et systèmes.
+            Je construis des applications web robustes et sécurisées
             du frontend soigné jusqu'à l'infrastructure système.
           </p>
 

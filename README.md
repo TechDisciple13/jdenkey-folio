@@ -41,7 +41,6 @@ src/
 │   │   ├── About.jsx
 │   │   ├── Portfolio.jsx
 │   │   ├── Experience.jsx
-│   │   ├── Blog.jsx
 │   │   └── CTA.jsx
 │   └── ui/                    ← Composants réutilisables
 │       └── ProjectCard.jsx
