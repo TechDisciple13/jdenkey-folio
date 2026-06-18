@@ -20,7 +20,7 @@ export const projects = [
     image: '/images/bisonhero.png',
     category: 'realise',
     tags: ['React', 'TypeScript', 'Tailwind'],
-    link: 'https:magnifiqbison.com',
+    link: 'https://magnifiqbison.com',
   },
   {
     id: 3,
