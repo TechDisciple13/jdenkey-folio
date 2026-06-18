@@ -10,7 +10,7 @@ export const projects = [
     image: '/images/axennoirhero.png',
     category: 'realise',
     tags: ['React','TypeScript','Tailwind'],
-    link: 'https://axennoir-website.vercel.app/',
+    link: 'https://axen-noir.africa',
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const projects = [
     image: '/images/bisonhero.png',
     category: 'realise',
     tags: ['React', 'TypeScript', 'Tailwind'],
-    link: 'https://bison-incubateur.vercel.app/',
+    link: 'https:magnifiqbison.com',
   },
   {
     id: 3,
