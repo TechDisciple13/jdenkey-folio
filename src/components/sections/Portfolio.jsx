@@ -13,9 +13,11 @@ export default function Portfolio() {
 
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-10">
           <h2 className="heading-lg">
-            Mes{' '}
-            <span className="text-secondary dark:text-[#888] font-light italic">réalisations</span>
+            Des idées transformées en{' '}
+            <span className="text-secondary dark:text-[#888] font-light italic">projets</span>
           </h2>
+          <p className="text-secondary dark:text-[#888] text-sm font-light max-w-md">
+            Une sélection de projets réalisés pour apprendre, expérimenter et répondre à des besoins concrets.</p>
 
           {/* Filtre */}
           <div className="flex gap-2 flex-wrap">

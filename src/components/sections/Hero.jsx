@@ -9,23 +9,22 @@ export default function Hero() {
         {/* Left — Content */}
         <div className="flex-1 flex flex-col justify-center py-12 md:py-20 pr-0 md:pr-12">
           {/* Title */}
-          <h1 className="heading-xl mb-4">Henri-Joel<br />DENKEY</h1>
+          <h1 className="heading-xl mb-4">Henri-Joël<br/>DENKEY</h1>
 
           {/* Subtitle */}
           <p className="text-secondary dark:text-[#aaa] text-lg font-light mb-5 max-w-md leading-snug">
-            Développeur web fullstack.
-              Mon expertise couvre l'ensemble de la chaîne de développement : conception
-              d'interfaces React performantes, développement backend PHP/Python,
-              et sécurisation des applications et systèmes.
-            Je construis des applications web robustes et sécurisées
-            du frontend soigné jusqu'à l'infrastructure système.
+            Étudiant en cybersécurité et développeur, je crée des solutions numériques
+             en combinant développement logiciel, sécurité et intelligence artificielle.
+             Mon parcours repose sur l’apprentissage continu et la pratique à travers des projets concrets. 
+             Je m’intéresse particulièrement au développement web, 
+             aux systèmes, aux réseaux, à la cybersécurité et aux nouvelles applications de l’IA.
           </p>
 
           {/* Description SEO */}
           <p className="text-secondary dark:text-[#888] text-sm font-light leading-relaxed max-w-md mb-10">
-            Spécialisé en développement React, PHP et sécurité des systèmes,
-            j'interviens sur des projets web complets avec une approche centrée
-            sur la performance, la fiabilité et l'expérience utilisateur.
+            Je construis, j’expérimente 
+            et j’apprends en transformant des idées 
+            en solutions numériques utiles.
           </p>
 
           {/* Photo mobile */}
@@ -38,8 +37,8 @@ export default function Hero() {
             />
             <div className="absolute bottom-4 left-4 bg-white dark:bg-[#1a1a1a] rounded-xl px-4 py-2.5
                             shadow-md border border-[#ebebeb] dark:border-[#2a2a2a]">
-              <p className="text-xs text-secondary dark:text-[#888]">Disponible pour</p>
-              <p className="text-sm font-medium text-primary dark:text-white">Freelance & Remote</p>
+              <p className="text-xs text-secondary dark:text-[#888]">Ouvert aux collaborations</p>
+              <p className="text-sm font-medium text-primary dark:text-white">Projets · Collaborations · Opportunités</p>
             </div>
           </div>
 
