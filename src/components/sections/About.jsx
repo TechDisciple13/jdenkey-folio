@@ -18,23 +18,24 @@ export default function About() {
           {/* Left — Bio */}
           <div>
             <h2 className="heading-lg mb-6">
-              Fullstack & sécurité <br />
+              Cybersécurité, développement &<br />
               <span className="text-secondary dark:text-[#888] font-light italic">
-                de l'interface au système
+              intelligence artificielle
               </span>
             </h2>
 
             <p className="text-secondary dark:text-[#888] leading-relaxed mb-5 font-light text-sm">
-              Je suis Henri-Joel Denkey, développeur web fullstack.
-              Mon expertise couvre l'ensemble de la chaîne de développement : conception
-              d'interfaces React performantes, développement backend PHP/Python,
-              et sécurisation des applications et systèmes.
-            </p>
-
-            <p className="text-secondary dark:text-[#888] leading-relaxed mb-8 font-light text-sm">
-              Avec une solide expérience en administration système Linux,
-              configuration réseau et cybersécurité, j'apporte une vision
-              technique complète à chaque projet.
+              Je suis Henri-Joël DENKEY, étudiant en cybersécurité et développeur, 
+              passionné par la création de produits numériques à travers le code, 
+              la sécurité et l’intelligence artificielle. Ma formation me permet de développer des bases solides 
+              en cybersécurité, réseaux informatiques, développement logiciel, Linux et systèmes d’information. 
+              En parallèle de mes études, je travaille chez MagnifiQ BISOn en tant que Support IT, où j’interviens sur 
+              les problématiques techniques et numériques de l’organisation. J’ai également développé son site internet afin 
+              de renforcer sa présence digitale et de présenter ses différents espaces et services.
+            </p> 
+              <p className="text-secondary dark:text-[#888] leading-relaxed mb-8 font-light text-sm">
+              Je continue à apprendre en construisant des projets concrets et en expérimentant avec de nouvelles technologies. Mon objectif est de 
+               comprendre un problème, concevoir une solution, la développer et veiller à ce qu’elle soit utile et sécurisée.
             </p>
 
             {/* Bouton CV */}
