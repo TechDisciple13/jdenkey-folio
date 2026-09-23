@@ -12,10 +12,10 @@ export default function Experience() {
           {/* Left — Titre */}
           <div className="lg:w-72 flex-shrink-0">
             <h2 className="heading-lg mb-4">
-              Mon parcours
+              Mon parcours dans
               <br />
               <span className="text-secondary dark:text-[#888] font-light italic">
-                professionnel
+              la technologie
               </span>
             </h2>
           </div>

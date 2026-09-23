@@ -5,13 +5,13 @@ export const experiences = [
   {
     id: 1,
     period: '2025 — Présent',
-    role: 'Technicien IT',
+    role: 'Technicien IT / Support IT',
     company: 'BISOn Coworking Space',
     location: 'Lomé, Togo',
     type: 'Emploi',
     description:
-      'Support technique, maintenance des systèmes informatiques, gestion de la logistique IT et analyse de données pour optimiser les opérations du coworking.',
-    tags: ['Excel', 'Analyse de données', 'Logistique'],
+      'Support technique, maintenance de l’environnement informatique et accompagnement des besoins numériques de l’organisation. Contribution aux opérations techniques, résolution des problèmes informatiques et assistance aux utilisateurs.',
+    tags: ['Support IT', 'Réseau', 'Assistance technique'],
     current: true,
   },
   {
@@ -22,12 +22,24 @@ export const experiences = [
     location: 'Lomé, Togo',
     type: 'Self-formation',
     description:
-      'Administration réseau, configuration hotspots, virtualisation Hyper-V (CentOS 8, Kali Linux).',
-    tags: ['Linux', 'Réseau', 'Hyper-V'],
+      'Administration et expérimentation autour des réseaux, systèmes Linux, configuration réseau, virtualisation et environnements de laboratoire.',
+    tags: ['Linux', 'Réseau', 'Virtualisation'],
     current: false,
   },
   {
     id: 3,
+    period: '2026 — Présent',
+    role: 'Ambassadeur',
+    company: 'Catho Tours International',
+    location: 'Lomé, Togo',
+    type: 'Freelance',
+    description:
+      'Participation à la promotion des activités de CathoTours International et aux échanges avec des jeunes issus de différents horizons. Cette expérience me permet de développer mes compétences en communication, networking, leadership et collaboration interculturelle.',
+    tags: ['communication', 'leadership', 'networking'],
+    current: true,
+  },
+  {
+    id: 4,
     period: '2023 — Présent',
     role: 'Référent numérique',
     company: 'Paroisse Ste Maria Goretti de Bè-Kpota',
