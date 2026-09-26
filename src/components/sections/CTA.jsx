@@ -22,13 +22,14 @@ export default function CTA() {
             </p>
             <h2 className="text-4xl md:text-5xl font-light text-white dark:text-primary
                            leading-tight tracking-tight mb-4">
-              Vous avez un projet ?<br />
-              <span className="italic">Donnons-lui vie.</span>
+              Une idée ou un projet ?<br />
+              <span className="italic">Contruisons-le ensemble.</span>
             </h2>
             <p className="text-white/50 dark:text-primary/50 text-sm font-light
                            max-w-md leading-relaxed">
-              Que ce soit un site web, une application ou un simple conseil technique,
-              je suis disponible pour échanger sur votre idée.
+              Qu’il s’agisse d’un projet web, d’une solution numérique ou simplement d’une idée
+               à explorer, je suis ouvert aux collaborations et aux opportunités qui
+               me permettront d’apprendre, de construire et de contribuer.
             </p>
           </div>
 
